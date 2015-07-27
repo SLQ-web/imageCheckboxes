@@ -1,0 +1,24 @@
+body { font-family: helvetica, arial, sans-serif; }
+
+input[type=checkbox] { display: none; }
+
+.css-label{
+  display: inline-block;
+  background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+}
+
+.img1 { background :url(http://i1167.photobucket.com/albums/q640/coolwebs/forms%20radio%20images/bankgok-city_zps2czsbahx.jpg); }
+.img2 { background :url(http://i1167.photobucket.com/albums/q640/coolwebs/forms%20radio%20images/singapore_zpsdn73iqgs.jpg); }
+.img3 { background :url(http://i1167.photobucket.com/albums/q640/coolwebs/forms%20radio%20images/phimai2_zpsn9sonc8g.jpg); }
+.img4 { background :url(http://i1167.photobucket.com/albums/q640/coolwebs/forms%20radio%20images/phimai1_zpsbz02o306.jpg); }
+.img5 { background :url(http://i1167.photobucket.com/albums/q640/coolwebs/forms%20radio%20images/botanical1_zpskdgcgbpi.jpg); }
+
+input[type=checkbox]:checked + label.css-label {
+ border: 5px inset blue;
+    opacity: 0.65;
+    box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
