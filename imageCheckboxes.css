@@ -25,4 +25,4 @@ input[type=checkbox]:checked + label.css-label, input[type=radio]:checked + labe
 }
 
 /*Additional styles for radio button images to distinguish*/
-form.radio label { border-radius: 50px;  }
+form.radio label { border-radius: 100px;  }
