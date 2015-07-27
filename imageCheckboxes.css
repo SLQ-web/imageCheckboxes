@@ -16,8 +16,16 @@ input[type=checkbox], input[type=radio] { display: none; }
 .img4 { background :url(http://i1167.photobucket.com/albums/q640/coolwebs/forms%20radio%20images/phimai1_zpsbz02o306.jpg); }
 .img5 { background :url(http://i1167.photobucket.com/albums/q640/coolwebs/forms%20radio%20images/botanical1_zpskdgcgbpi.jpg); }
 
-input[type=checkbox]:checked + label.css-label, input[type=radio]:checked + label.css-label {
+input[type=checkbox]:checked + label.css-label  {
  border: 5px inset blue;
+    opacity: 0.65;
+    box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+
+input[type=radio]:checked + label.css-label {
+ border: 5px inset red;
     opacity: 0.65;
     box-sizing:border-box;
   -moz-box-sizing:border-box;
