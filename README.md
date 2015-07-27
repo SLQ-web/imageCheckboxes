@@ -1,7 +1,7 @@
 # ImageCheckboxes
 This is a demonstration of how to use images as checkboxes within a web form.
 
-First put this example up in a JS Fiddle here http://jsfiddle.net/coolwebs/qf1qs8kg/ but now moving the scripts into GitHub for the sake of prosperity and sharing.
+Initially this existed as a JS Fiddle here http://jsfiddle.net/coolwebs/qf1qs8kg/ but now moving the scripts into GitHub for the sake of prosperity and sharing.
 
 Simple web form that uses HTML and CSS. Not much to it really, just another more interesting way of presenting a web form with checkbox options.
 
